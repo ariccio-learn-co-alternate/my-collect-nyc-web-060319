@@ -5,6 +5,6 @@ def my_collect(collection)
     yield new_collection[iter]
     iter += 1
   end
-  new_collection
+  collection
 end
 
