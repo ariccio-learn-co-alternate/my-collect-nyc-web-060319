@@ -1,8 +1,8 @@
 def my_collect(collection)
   iter = 0
-  new_collection = collection
-  while iter < new_collection.size() do
-    yield new_collection[iter]
+  new_collection = []
+  while iter < collection.size() do
+    yield collection[iter]
     iter += 1
   end
   new_collection
